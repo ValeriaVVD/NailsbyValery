@@ -51,7 +51,7 @@ body {
 }
 
 .nav-menu a:hover {
-  color: rgb(255, 179, 240);
+  color: rgb(255, 159, 236);
 }
 
 .booking-btn {
@@ -476,3 +476,39 @@ footer {
   }
 }
 
+.pinterest-gallery {
+  column-count: 4; /* 4 колонки на десктопе */
+  column-gap: 12px;
+  padding: 12px;
+}
+
+.gallery-item {
+  break-inside: avoid; /* Запрещаем разрыв элемента между колонками */
+  margin-bottom: 12px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Обрезаем изображение для сохранения пропорций */
+}
+
+.caption {
+  padding: 8px 10px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #444;
+  line-height: 1.3;
+  text-align: center;
+}
