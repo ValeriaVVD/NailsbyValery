@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия маникюра Nails by Valery</title>
+    <link rel="icon" type="image/jpeg" href="иконка.jpeg">
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
@@ -16,114 +17,107 @@
                 <li><a href="locations.html">Наши точки</a></li>
                 <li><a href="gallery.html">Примеры работ</a></li>
                 <li><a href="cooperation.html">Сотрудничество</a></li>
-                <li><button class="booking-btn">Записаться</button></li>
+                <li><a href="forma.html" class="action-button"><button class="btn">Записаться</button></a>
             </ul>
         </div>
     </nav>
 
-    <!-- Слайдер на весь экран -->
-    <section id="home" class="slider">
-        <div class="slides">
-            <div class="slide active">
-                <img src="надпись.jpg" alt="Маникюр">
-                <div class="slide-text">
-                    <h2>Маникюр</h2>
-                    <p>Безупречное лёгкое покрытие</p>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="студия.jpg" alt="Наращивание ресниц">
-                <div class="slide-text">
-                    <h2>Наращивание ресниц</h2>
-                    <p>Взгляд, который покорит</p>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="волосы.jpg" alt="Кератиновое выпрямление">
-                <div class="slide-text">
-                    <h2>Кератиновое выпрямление</h2>
-                    <p>Гладкие и блестящие волосы</p>
-                </div>
-            </div>
+    <!-- Hero-секция -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="студия.jpg" alt="Маникюр">
+            <div class="hero-overlay"></div>
         </div>
-        <button class="slider-arrow prev">‹</button>
-        <button class="slider-arrow next">›</button>
+        <div class="hero-text">
+            <h2>Маникюр, который влюбляет в себя</h2>
+            <p>Безупречное качество, стойкое покрытие и ваш идеальный уход в студии Nails by Valery.</p>
+        </div>
     </section>
 
-    <!-- Акции -->
-    <!-- Акции -->
-    <div class="gallery-container horizontal">
-      <div class="card">
-      <img src="ногти короткие нюд.jpg" alt="Безупречное лёгкое покрытие: короткие ногти в нюдовом оттенке">
-      <div class="card-content">
-      <h3 class="procedure-name">Покрытие нюд/однотон, без наращивания</h3>
-      <p class="price">1 500 ₽</p>
-      <button class="appointment-btn">Записаться</button>
-      </div>
-      </div>
-      
-      <div class="card">
-      <img src="ногти френч.jpg" alt="Французский маникюр с небольшим наращиванием">
-      <div class="card-content">
-      <h3 class="procedure-name">Французский маникюр + наращивание</h3>
-      <p class="price">2 000 ₽</p>
-      <button class="appointment-btn">Записаться</button>
-      </div>
-      </div>
-      
-      <div class="card">
-      <img src="ногти пояса.jfif" alt="Маникюр с дизайном и наращиванием">
-      <div class="card-content">
-      <h3 class="procedure-name">Дизайн + наращивание</h3>
-      <p class="price">1 800 ₽</p>
-      <button class="appointment-btn">Записаться</button>
-      </div>
-      </div>
-      
-      <div class="card">
-      <img src="ногти длинные стилеты.jfif" alt="Креативный дизайн на длинных ногтях-стилетах">
-      <div class="card-content">
-      <h3 class="procedure-name">Экстрадлина + креативный дизайн</h3>
-      <p class="price">3 000 ₽</p>
-      <button class="appointment-btn">Записаться</button>
-      </div>
-      </div>
-      
-      <div class="card">
-      <img src="ногти нюд.jpg" alt="Нюдовый маникюр средней длины">
-      <div class="card-content">
-      <h3 class="procedure-name">Нюдовый маникюр</h3>
-      <p class="price">1 700 ₽</p>
-      <button class="appointment-btn">Записаться</button>
-      </div>
-      </div>
-      </div>
+    <!-- Специальное предложение -->
+    <h2 class="section-title">Специальное предложение</h2>
 
-    <!-- Преимущества в два столбца -->
-    <section class="advantages">
+    <div class="gallery">
+        <div class="card">
+            <img src="ногти короткие нюд.jpg" alt="Безупречное лёгкое покрытие: короткие ногти в нюдовом оттенке">
+            <div class="card-content">
+                <h3 class="card-title">Покрытие нюд/однотон, без наращивания</h3>
+                <p class="card-price">1 500 ₽</p>
+                <a href="forma.html" class="btn">Записаться</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ногти френч.jpg" alt="Французский маникюр с небольшим наращиванием">
+            <div class="card-content">
+                <h3 class="card-title">Французский маникюр + наращивание</h3>
+                <p class="card-price">2 000 ₽</p>
+                <a href="forma.html" class="btn">Записаться</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ногти пояса.jfif" alt="Маникюр с дизайном и наращиванием">
+            <div class="card-content">
+                <h3 class="card-title">Дизайн + наращивание</h3>
+                <p class="card-price">1 800 ₽</p>
+                <a href="forma.html" class="btn">Записаться</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ногти длинные стилеты.jfif" alt="Креативный дизайн на длинных ногтях-стилетах">
+            <div class="card-content">
+                <h3 class="card-title">Экстрадлина + креативный дизайн</h3>
+                <p class="card-price">3 000 ₽</p>
+                <a href="forma.html" class="btn">Записаться</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="ногти нюд.jpg" alt="Нюдовый маникюр средней длины">
+            <div class="card-content">
+                <h3 class="card-title">Нюдовый маникюр</h3>
+                <p class="card-price">1 700 ₽</p>
+                <a href="forma.html" class="btn">Записаться</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="голые ногти.jpg" alt="Нюдовый маникюр средней длины">
+            <div class="card-content">
+                <h3 class="card-title">Бережное покрытие (не гель-лак)</h3>
+                <p class="card-price">1 000 ₽</p>
+                <a href="forma.html" class="btn">Записаться</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Преимущества -->
+    <section class="features">
         <h2>Наши преимущества</h2>
-        <div class="advantages-grid">
-            <div class="advantage">
+        <div class="features-grid">
+            <div class="feature">
                 <h3>Опытный мастер</h3>
                 <p>Наш специалист имеет опыт более 5 лет</p>
             </div>
-            <div class="advantage">
+            <div class="feature">
                 <h3>Качественные материалы</h3>
                 <p>Используем только проверенные бренды</p>
             </div>
-            <div class="advantage">
+            <div class="feature">
                 <h3>Уютная атмосфера</h3>
                 <p>Расслабьтесь в комфортной обстановке</p>
             </div>
-            <div class="advantage">
+            <div class="feature">
                 <h3>Гибкое расписание</h3>
                 <p>Работаем с 9:00 до 21:00 без выходных</p>
             </div>
-            <div class="advantage">
+            <div class="feature">
                 <h3>Гарантия качества</h3>
                 <p>Мы отвечаем за результат, 14 дней после процедуры</p>
             </div>
-            <div class="advantage">
+            <div class="feature">
                 <h3>Доступные цены</h3>
                 <p>Качество по разумной, обоснованной цене</p>
             </div>
